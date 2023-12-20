@@ -235,7 +235,7 @@ export const projects = [
     ],
     category: "Embedded Project",
     github:
-      "https://github.com/Afaaqahxmed/GloWave-Dynamic-LED-Brightness-Control-with-ARM-LPC2148",
+      "https://github.com/Afaaqahamedx/Dynamic-LED-Brightness-Control-with-ARM-LPC2148",
     webapp: "",
   },
   {
@@ -255,7 +255,7 @@ export const projects = [
       "6-Axis Control Arm",
     ],
     category: "Embedded Project",
-    github: "https://github.com/Afaaqahxmed/SmartPhone-Controlled-Robotic-Arm",
+    github: "https://github.com/Afaaqahamedx/SmartPhone-Controlled-Robotic-Arm",
   },
 
   {
