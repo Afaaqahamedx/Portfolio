@@ -45,9 +45,9 @@ const HeroSection = () => {
             </ResumeButton>
             <br /> <br /> <br /> <br />
           </HeroLeftContainer>
-          {/* <HeroRightContainer id="Right">
+          <HeroRightContainer id="Right">
             <Img src={HeroImg} alt="hero-image" />
-          </HeroRightContainer> */}
+          </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
     </div>
