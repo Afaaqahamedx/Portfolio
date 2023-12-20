@@ -17,6 +17,13 @@ export const HeroContainer = styled.div`
     padding: 32px 16px;
   }
 
+  @media (max-width: 960px) {
+  body {
+    padding: 66px 16px;
+  }
+}
+
+
   z-index: 1;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
@@ -144,7 +151,7 @@ export const Img = styled.img`
   max-width: 500px;
   max-height: 500px;
   border-radius: 25%;
-  ${'' /* border: 2px solid ${({ theme }) => theme.primary}; */}
+  ${"" /* border: 2px solid ${({ theme }) => theme.primary}; */}
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -237,44 +244,41 @@ export const SubTitle = styled.div`
 //     transition: all 0.4s ease-in-out;
 //     box-shadow:  20px 20px 60px #1F2634,
 //     filter: brightness(1);
-//     }    
-    
-    
+//     }
+
 //     @media (max-width: 640px) {
 //         padding: 12px 0;
 //         font-size: 18px;
-//     } 
+//     }
 // `;
 
 export const ResumeButton = styled.a`
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    width: 95%;
-    max-width: 300px;
-    text-align: center;
-    padding: 16px 0;
-    color: ${({ theme }) => theme.black};
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out !important;
-    background: linear-gradient(225deg, #e07a5f 0%, #f4f1de 100%);
-    box-shadow: 20px 20px 60px #1F2634, -20px -20px 60px #1F2634;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  width: 95%;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0;
+  color: ${({ theme }) => theme.black};
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out !important;
+  background: linear-gradient(225deg, #e07a5f 0%, #f4f1de 100%);
+  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
 
-    &:hover {
-        transform: scale(1.05);
-        transition: all 0.4s ease-in-out;
-        box-shadow: 20px 20px 60px #1F2634;
-        filter: brightness(1);
-    }
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 20px 20px 60px #1f2634;
+    filter: brightness(1);
+  }
 
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    }
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
 `;
-
-
