@@ -265,7 +265,7 @@ export const projects = [
       "Explore my GitHub repo showcasing Real-Time Operating System (RTOS) assignments! From minimizing store electricity usage to implementing interrupt handling and synchronization, each assignment is a hands-on journey into embedded systems. 🚀 #RTOS #EmbeddedSystems",
     image:
       "https://github.com/Afaaqahamedx/RTOS-Projects/assets/154306429/40d310a5-2ea6-4240-9957-283f630b7db3",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+    tags: ["ARMv7", "LPC2148", "RTOS", "Embedded C" ,"keil-uvision5"],
     category: "RTOS",
     github: "https://github.com/Afaaqahamedx/RTOS-Projects",
   },
