@@ -26,8 +26,11 @@ const MobileMenuWrapper = styled.div`
   height: 100%;
   ${"" /* background: rgba(0, 0, 0, 0.5); */}
   backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
-  z-index: 999; /* Ensure the backdrop is above other elements */
-  display: ${({ isOpen }) => (isOpen ? "block" : "none")};
+  transition: opacity 0.3s ease;
+  z-index: 999; 
+  ${'' /* display: ${({ isOpen }) => (isOpen ? "block" : "none")};
+  opacity: ${({ isOpen }) => (isOpen ? 1 : 0)};
+  transition: opacity 0.5s ease-in;  */}
 `;
 
 const Navbar = () => {
@@ -113,15 +116,6 @@ const Navbar = () => {
                 }}
               >
                 Education
-              </MobileLink>
-
-              <MobileLink
-                href="#contact"
-                onClick={() => {
-                  setIsOpen(!isOpen);
-                }}
-              >
-                Contact
               </MobileLink>
 
               <GitHubButton
