@@ -15,7 +15,7 @@ export const Container = styled.div`
   z-index: 1;
   align-items: center;
   width: 100%;
-  clip-path: polygon(0 4%, 50% 0, 100% 0%, 100% 94%, 40% 100%, 0 100%);
+  clip-path: polygon(0 3%, 50% 0, 100% 0%, 100% 97%, 40% 100%, 0 100%);
 `;
 
 

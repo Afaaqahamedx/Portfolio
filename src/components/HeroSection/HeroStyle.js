@@ -8,7 +8,6 @@ export const HeroContainer = styled.div`
   position: relative;
   padding: 80px 30px;
   gap: 20px; /* Adjust the gap value as needed */
-
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
@@ -18,10 +17,10 @@ export const HeroContainer = styled.div`
   }
 
   @media (max-width: 960px) {
-  body {
-    padding: 66px 16px;
+    body {
+      padding: 66px 16px;
+    }
   }
-}
 
 
   z-index: 1;
@@ -150,7 +149,7 @@ export const Img = styled.img`
   height: 100%;
   max-width: 500px;
   max-height: 500px;
-  border-radius: 25%;
+  border-radius: 50%;
   ${"" /* border: 2px solid ${({ theme }) => theme.primary}; */}
 
   @media (max-width: 768px) {
