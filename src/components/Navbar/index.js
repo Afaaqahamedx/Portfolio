@@ -19,7 +19,7 @@ import { Bio } from "../../data/constants";
 import { useTheme } from "styled-components";
 
 const MobileMenuWrapper = styled.div`
-  position: fixed;
+  position: fixed; /* That maens it's fixed even in scrolling*/
   top: 0;
   left: 0;
   width: 100%;
@@ -48,6 +48,7 @@ const Navbar = () => {
               color: "white",
               marginBottom: "20;",
               cursor: "pointer",
+              textDecoration: "none",
             }}
           >
             <Span>Afaaqahamed Jamadar</Span>

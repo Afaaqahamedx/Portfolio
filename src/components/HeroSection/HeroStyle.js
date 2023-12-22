@@ -150,6 +150,7 @@ export const Img = styled.img`
   max-width: 500px;
   max-height: 500px;
   border-radius: 50%;
+  margin-bottom: 50px;
   ${"" /* border: 2px solid ${({ theme }) => theme.primary}; */}
 
   @media (max-width: 768px) {

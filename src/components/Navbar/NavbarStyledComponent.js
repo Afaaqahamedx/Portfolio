@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
-    height: 80px;
+    ${'' /* background-color: ${({theme}) => theme.card_light}; */}
+    height: 60px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,16 +17,20 @@ export const Nav = styled.div`
         trastion: 0.8s all ease;
     }
 `;
+
 export const NavbarContainer = styled.div`
+  ${'' /* background-color: ${({theme}) => theme.card_light}; */}
+  backdrop-filter: blur(7px);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 1px;
   max-width: 1200px;
 `;
+
 
 export const NavLogo = styled(LinkR)`
     width: 80%;    

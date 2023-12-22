@@ -44,6 +44,7 @@ const Projects = ({ openModal, setOpenModal }) => {
     <Container id="projects">
       <Wrapper>
         <br />
+        <br />
         <Title>Projects</Title>
         <Desc>
           I have worked on Embedded Projects and some Blockchain Based Projects.

@@ -1,7 +1,7 @@
 import React from "react";
 import {
   HeroContainer,
-  HeroBg,
+  // HeroBg,
   HeroLeftContainer,
   Img,
   HeroRightContainer,
@@ -10,9 +10,9 @@ import {
   Title,
   Span,
   SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
-  ResumeButton,
+  // SocialMediaIcons,
+  // SocialMediaIcon,
+  // ResumeButton,
 } from "./HeroStyle";
 import HeroImg from "../../images/HeroImg.jpg";
 import Typewriter from "typewriter-effect";
@@ -42,10 +42,10 @@ const HeroSection = () => {
             
             <SubTitle>{Bio.description}</SubTitle>
             <br /> <br />
-            <ResumeButton href="../../../Resume.pdf" download target="display" >
+            {/* <ResumeButton href="../../../Resume.pdf" download target="display" >
               Download Resume
-            </ResumeButton>
-            <br /> <br /> <br /> <br />
+            </ResumeButton> */}
+            {/* <br /> <br /> <br /> <br /> */}
           </HeroLeftContainer>
           <HeroRightContainer id="Right">
             <Img src={HeroImg} alt="hero-image" />
